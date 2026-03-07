@@ -1,0 +1,16 @@
+# GitHub部署命令
+# 请将下面的 [你的GitHub仓库地址] 替换为实际的GitHub仓库URL
+
+# 1. 添加远程仓库（请替换为你的GitHub仓库地址）
+git remote add origin https://github.com/[你的GitHub用户名]/ai-coding-graduation-card.git
+
+# 2. 推送到GitHub（首次推送）
+git push -u origin main
+
+# 3. 如果遇到认证问题，可以使用SSH方式（推荐）
+# 首先删除当前的远程仓库连接
+# git remote remove origin
+# 然后添加SSH连接
+# git remote add origin git@github.com:[你的GitHub用户名]/ai-coding-graduation-card.git
+# 再执行推送
+# git push -u origin main
