@@ -207,8 +207,7 @@ function renderProducts() {
       '</div>'
     ).join('');
     
-    return 
-      '<div class="product-card">' +
+    return '<div class="product-card">' +
         '<div class="product-icon">' +
           '<i class="fas fa-' + product.icon + '"></i>' +
         '</div>' +
